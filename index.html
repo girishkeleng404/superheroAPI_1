@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+
+  <body class=" con">
+    <div class="btn flex justify-center">
+      <!-- <input
+        class="border-2 border-current px-1"
+        type="text"
+        placeholder="new hero"
+      />
+      <button class="bg-red-400 text-white rounded-md px-3 py-1 my-5 mx-3">
+        search
+      </button> -->
+      <button
+        id="btn1"
+        class=" transition-all delay-75 ease-in bg-white text-red-800 rounded-md px-3 py-1 mt-7 hover:text-white hover:bg-red-900 border-white "
+      ></button>
+    </div>
+
+    <p
+      class="text-3xl text-red-200 text-center py-7"
+      id="codeName"
+    >
+  
+    </p>
+
+    <div class="con2 flex justify-around mx-16">
+      <div class="images">
+        <img id="img1" class="min-w-full" src="" alt="" />
+      </div>
+
+      <div class="details mx-16 mb-10 text-white">
+        <h1 class="biography text-2xl underline text-red-200">Biography</h1>
+
+        <h1 class="text-xl text-red-100" id="name">sdf</h1>
+        <p id="alignment" class="text-red-100"></p>
+        <p id="alterEgos" class="text-red-100"></p>
+        <p id="firstAppearance" class="text-red-100"></p>
+        <p id="placeOfBirth" class="text-red-100"></p>
+        <p id="publisher" class="text-red-100"></p>
+        <p id="aliases" class="text-red-100"></p>
+        <br />
+        <h1 class="text-2xl align-middle underline text-purple-200">powerstats</h1>
+        <p id="powerstats" class="text-lg text-purple-100"></p>
+        <p id="durability" class="text-lg text-purple-100"></p>
+        <p id="intelligence" class="text-lg text-purple-100"></p>
+        <p id="power" class="text-lg text-purple-100"></p>
+        <p id="speed" class="text-lg text-purple-200"></p>
+        <p id="strength" class="text-lg text-purple-200"></p>
+        <br />
+        <h1 class="text-2xl align-middle underline text-purple-300">Appearance</h1>
+        <p id="eyeColor" class="text-purple-200"></p>
+        <p id="gender" class="text-purple-200"></p>
+        <p id="hairColor" class="text-purple-200"></p>
+        <p id="height" class="text-purple-300"></p>
+        <p id="race" class="text-purple-300"></p>
+        <p id="weight" class="text-purple-300"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

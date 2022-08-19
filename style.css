@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trispace', sans-serif; 
+
+  
+    
+}
+
+body {
+  width: 100%;
+  background-image: linear-gradient(to top, rgb(17, 2, 50), #210202);
+  /* background-repeat: no-repeat;*/
+    background-size: cover; 
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.con {
+  /* background-image: url(img/wp2278983-supervillains-wallpapers\(1\).jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+
+  .con2{
+    flex-direction: column;
+    
+  }
+  .biography{
+    padding: 19px 0;
+  }
+  .details{
+    /* min-width: 300px; */
+    margin: 0;
+  }
+  body{
+    height: 100%;
+    margin: 0;
+  }
+}
+
